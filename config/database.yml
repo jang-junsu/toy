@@ -1,0 +1,6 @@
+development:
+  url: 127.0.0.1:3006/toy_development?charset
+  user: root
+test:
+  url:
+  user: root
