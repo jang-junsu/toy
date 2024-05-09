@@ -1,0 +1,15 @@
+version: "3"
+
+services:
+  db:
+    image: mysql:8.0
+    volumes:
+      - /var/lib/mysql:/var/lib/mysql
+    ports:
+      - "3306:3306"
+      # env_file:
+      # - ./.env
+    environment:
+      MYSQL_ALLOW_EMPTY_PASSWORD: "yes"
+  redis:
+    image: "redis:alpine"
