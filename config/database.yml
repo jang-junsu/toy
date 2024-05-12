@@ -1,6 +1,4 @@
 development:
-  url: 127.0.0.1:3006/toy_development?charset
-  user: root
+  url: root:pass@tcp(127.0.0.1)/toy_development
 test:
-  url:
-  user: root
+  url: root:pass@tcp(127.0.0.1)/toy_development
