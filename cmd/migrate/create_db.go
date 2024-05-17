@@ -13,6 +13,6 @@ var CreateCmd = cobra.Command{
 }
 
 func run() error {
-	config, err := getConfig
+	//config, err :=
 	return nil
 }
