@@ -1,6 +1,7 @@
 package migrate
 
 import (
+	"fmt"
 	"github.com/spf13/cobra"
 )
 
@@ -14,5 +15,6 @@ var CreateCmd = cobra.Command{
 
 func run() error {
 	//config, err :=
+	fmt.Println("create database")
 	return nil
 }
