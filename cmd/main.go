@@ -17,6 +17,7 @@ var rootCmd = &cobra.Command{
 
 func main() {
 	rootCmd.AddCommand(migrate.Cmd)
+	rootCmd.AddCommand(grpc.Cmd)
 	if err := rootCmd.Execute(); err != nil {
 		log.Printf("command error: %v", err)
 		os.Exit(1)
