@@ -10,3 +10,5 @@ toy: $(SRCS)
 dev_server: $(SRCS)
 	gin -p 3005 -a 8080 -x frontend_ops/ -i -d cmd run dev_server
 
+.PHONY: server
+  server
